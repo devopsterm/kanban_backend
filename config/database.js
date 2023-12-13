@@ -9,7 +9,7 @@ mongoose.Promise = global.Promise;
 //connection logic
 if (process.env.NODE_ENV === "production") {
   
-    connectionString =  "" ;
+    connectionString =  "mongodb+srv://abhisheklimbikai001:gghHD3osGnWzBIZq@testenv.n98hmke.mongodb.net/kanban?retryWrites=true&w=majority" ;
 
   } else if (process.env.NODE_ENV === "development") {
 
